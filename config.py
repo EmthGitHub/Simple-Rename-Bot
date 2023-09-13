@@ -6,6 +6,6 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "6562958250:AAH6ZbZnDdrn88HUU0sOKNSmdX1fAOS
 ADMIN = int(environ.get("ADMIN", "696471140"))          
 CAPTION = environ.get("CAPTION", "")
 
-# for thumbnail ( back end is MrMKN brain 😉)
+THUMBNAIL = environ.get("THUMBNAIL", "https://telegra.ph/file/6b428451ad67e7abbacca.jpg")
 DOWNLOAD_LOCATION = "./DOWNLOADS"
 
